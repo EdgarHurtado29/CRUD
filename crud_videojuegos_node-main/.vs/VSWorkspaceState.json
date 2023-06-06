@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Base de datos",
+    "\\estatico",
+    "\\estatico\\js",
+    "\\estatico\\js\\compra",
+    "\\estatico\\js\\usuario",
+    "\\estatico\\login",
+    "\\estatico\\usuario",
+    "\\rutas",
+    "\\servicios"
+  ],
+  "SelectedNode": "\\server.js",
+  "PreviewInSolutionExplorer": false
+}

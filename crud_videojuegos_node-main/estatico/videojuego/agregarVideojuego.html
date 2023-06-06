@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/helper.js"></script>
+    <script src="../js/videojuego/agregarVideojuego.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="alerta" class="alerta">
+        <div class="wrapper">
+            <div class="mensaje">
+                <p>Este es un mensaje de prueba</p>
+            </div>
+            <div class="botones">
+                <button class="aceptar">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmar" class="confirmar">
+        <div class="wrapper">
+            <div class="mensaje">
+                <p>¿Seguro que deseas agregar el videojuego?</p>
+            </div>
+            <div class="botones">
+                <button class="cancelar">No</button>
+                <button class="aceptar">Si</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="formulario">
+        <h2>Agregar Videojuego</h2>
+
+        <label>
+            <p>Nombre:</p>
+            <input type="text" name="nombre" id="nombre">
+        </label>
+
+        <label>
+            <p>Costo:</p>
+            <input type="number" name="costo" id="costo">
+        </label>
+
+        <div class="botones">
+            <button id="regresar">Regresar</button>
+            <button id="guardar">Guardar</button>
+        </div>
+    </div>
+    <div class="img-right">
+        <img src = "https://cdn1.epicgames.com/offer/f5deacee017b4b109476933f7dd2edbd/EGS_EASPORTSFIFA23StandardEdition_EACanada_S1_2560x1440-aaf9c5273c27a485f2cce8cb7e804f5c" height="200" width="" alt="">
+    </div>
+    <div class="img-left">
+        <img src = "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg" height="200" width="" alt="">
+    </div>
+
+</body>
+</html>
